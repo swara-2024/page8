@@ -1,0 +1,59 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Speech to Text</title>
+  </head>
+  <body>
+    <button class="back-button"><a href="/english-speaking-cards-master/index.html">Back</a></button>
+    <!-- ##add link## -->
+    <button class="next-button"><a href="/language-option-page/index.html">Finish</a></button>
+     <!-- ##add link## -->
+    <div class="container">
+      <p class="heading">Read the Following sentence</p>
+      <img src="football play.jpg"  width="360" height="250">
+      <div class="options">
+        <div class="anguage">
+          <h2>I like Playing football</h2>
+          <select name="input-language" id="language"></select>
+        </div>
+      </div>
+  
+      <p class="heading">Result :</p>
+      <div
+        class="result"
+        spellcheck="false"
+        placeholder="Text will be shown here">
+        <p class="interim"></p>
+      </div>
+      <button class="btn record">
+        <div class="icon">
+          <ion-icon name="mic-outline"></ion-icon>
+          <img src="bars.svg" alt="" />
+        </div>
+        <p>Click Here</p>
+      </button>
+    </div>
+  
+    <!-- IONICONS -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+    
+  src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+
+    <!-- LANGUAGES -->
+    <script src="languages.js"></script>
+
+    <!-- SCRIPT -->
+    <script src="script JS-1.js"></script>
+  </body>
+</html>
